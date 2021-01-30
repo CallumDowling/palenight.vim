@@ -139,6 +139,7 @@ call s:h("Todo", { "fg": s:purple }) " anything that needs extra attention; most
 
 " Highlighting Groups (descriptions and ordering from `:h hitest.vim`) {{{
 
+call s:h("LspDiagnosticsWarningSign", { "fg": s:red })
 call s:h("LspDiagnosticsVirtualTextError", { "fg": s:red })
 call s:h("LspDiagnosticsVirtualTextWarning", { "fg": s:dark_yellow })
 call s:h("LspDiagnosticsVirtualTextInformation", { "fg": s:green })
