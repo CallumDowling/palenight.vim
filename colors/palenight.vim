@@ -139,7 +139,10 @@ call s:h("Todo", { "fg": s:purple }) " anything that needs extra attention; most
 
 " Highlighting Groups (descriptions and ordering from `:h hitest.vim`) {{{
 
-call s:h("CocHintSign", { "fg": s:cyan }) " Coc hint colour
+call s:h("LspDiagnosticsVirtualTextError", { "fg": s:red })
+call s:h("LspDiagnosticsVirtualTextWarning", { "fg": s:dark_yellow })
+call s:h("LspDiagnosticsVirtualTextInformation", { "fg": s:white })
+call s:h("LspDiagnosticsVirtualTextInformation", { "fg": s:green })
 call s:h("ColorColumn", { "bg": s:cursor_grey }) " used for the columns set with 'colorcolumn'
 call s:h("Conceal", {}) " placeholder characters substituted for concealed text (see 'conceallevel')
 call s:h("Cursor", { "fg": s:black, "bg": s:blue }) " the character under the cursor
